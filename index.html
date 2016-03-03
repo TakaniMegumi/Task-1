@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>Request a demo</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" href="style/mobile.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<div class="block-form">
+	<h2>REQUEST A DEMO</h2>
+
+	<div class="line"></div>
+
+	<form id="registrationForm" action="http://itcraft.com.ua/html­css­internship­2016­0439599340/form­controller.php"
+		  method="post">
+		<fieldset>
+
+			<div class="block-top">
+				<div class="full-first-name">
+					<div><label id="first-name" for="first-name-input">First Name</label></div>
+					<div class="block-first-name"><input class="handle" id="first-name-input" type="text"
+														 name="first_name"
+														 required="required"/></div>
+				</div>
+				<div class="full-last-name">
+					<div><label id="last-name" for="last-name-input">Last Name</label></div>
+					<div class="block-last-name"><input class="handle" id="last-name-input" type="text" name="last_name"
+														required="required"/></div>
+				</div>
+			</div>
+
+			<div class="block-middle">
+				<div class="full-email">
+					<div><label id="email" for="email-input">Email *</label></div>
+					<div class="block-email"><input class="handle" id="email-input" type="email" name="email"
+													required="required"/>
+					</div>
+				</div>
+				<div class="full-phone handle error">
+					<div><label id="phone-number" for="phone">Phone Number</label></div>
+					<div id="phone">
+						<div>
+							<label for="phone-country-input"></label>
+
+							<div class="block-phone-country"><input class="handle phone-node" id="phone-country-input"
+																	type="tel" pattern="\d{3}"
+																	name="phone[country]"
+																	required="required"/></div>
+						</div>
+
+						<div>
+							<label for="phone-code-input"></label>
+
+							<div class="block-phone-code"><input class="handle phone-node" id="phone-code-input"
+																 type="tel" pattern="\d{2}"
+																 name="phone[code]"
+																 required="required"/></div>
+						</div>
+						<div>
+							<label for="phone-number-input"></label>
+
+							<div class="block-phone-number"><input class="handle phone-node" id="phone-number-input"
+																   type="tel" pattern="\d{7}"
+																   name="phone[number]"
+																   required="required"/></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class=" block-bottom">
+				<div class="full-school-organization">
+					<div><label id="schoolOrganization" for="school-organization-input">School/Organization *</label>
+					</div>
+					<div class="block-school-organization">
+						<p class="uni">&#128269;</p>
+						<input class="handle" id="school-organization-input" type="search" name="school_organization"
+							   required="required"/>
+					</div>
+				</div>
+				<div class="full-role">
+					<div><label id="role" for="role-input">Role on Campus *</label></div>
+					<div class="block-role"><input class="handle" id="role-input" type="text" name="role"
+												   required="required"/></div>
+				</div>
+			</div>
+
+			<div class="full-goals">
+				<div><label id="goals" for="goals-input">What are your goals for DemoSystem? *</label></div>
+				<div class="block-goals"><textarea class="handle" id="goals-input" name="goals"
+												   required="required"></textarea></div>
+			</div>
+
+
+			<div class="checkbox">
+				<div class="checkbox-button"><label><input type="checkbox"></label></div>
+				<div>
+					<p>I agree to the DemoSystem <span>Terms of Service</span> and <span
+							class="shift">Privacy Policy</span></p>
+				</div>
+			</div>
+			<div class="button">
+				<div class="submit"><input class="button-submit" type="submit" value="Submit"></div>
+				<div class="cancel"><input class="button-cancel" type="button" value="Cancel"></div>
+			</div>
+		</fieldset>
+	</form>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
+<script src="js/validate.js"></script>
+</html>
+
+
+

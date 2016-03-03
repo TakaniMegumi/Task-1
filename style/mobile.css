@@ -1,0 +1,182 @@
+@media (max-width: 600px) {
+	form {
+		margin: 0 auto;
+		padding: 0;
+		max-width: 370px;
+		background-color: #27292b;
+	}
+
+	h2 {
+		padding-left: 20px;
+		padding-top: 0;
+		margin: 10px 0;
+		font-weight: 500;
+	}
+
+	.block-form {
+		max-width: 370px;
+	}
+
+	.line {
+		width: 325px;
+		margin-left: 20px;
+	}
+
+	.block-top,
+	.block-middle,
+	.block-bottom {
+		padding-bottom: 0;
+	}
+
+	.full-first-name {
+		padding-top: 15px;
+	}
+
+	.full-first-name,
+	.full-last-name,
+	.full-email,
+	.full-phone,
+	.full-school-organization,
+	.full-role {
+		padding-bottom: 15px;
+	}
+
+	/*mobile block First Name*/
+	.full-first-name {
+		margin-left: 5px;
+	}
+
+	.block-first-name {
+		width: 330px;
+	}
+
+	#first-name-input {
+		width: 320px;
+	}
+
+	/*mobile block Last Name*/
+	.full-last-name {
+		margin-left: 5px;
+	}
+
+	.block-last-name {
+		width: 330px;
+	}
+
+	#last-name-input {
+		width: 320px;
+	}
+
+	/*mobile block email*/
+	.full-email {
+		margin-left: 5px;
+	}
+
+	.block-email {
+		width: 330px;
+	}
+
+	#email-input {
+		width: 320px;
+	}
+
+	/*mobile block phone number*/
+	.full-phone {
+		margin-left: 5px;
+	}
+
+	.block-phone-code,
+	.block-phone-country {
+		width: 95px;
+	}
+
+	.block-phone-number {
+		width: 128px;
+	}
+
+	#phone-code-input,
+	#phone-country-input {
+		width: 85px;
+	}
+
+	#phone-number-input {
+		width: 116px;
+	}
+
+	/*mobile block School Organization*/
+	.full-school-organization  {
+		margin-left: 5px;
+	}
+
+	.block-school-organization {
+		width: 330px;
+	}
+
+	#school-organization-input {
+		width: 330px;
+	}
+
+	.uni {
+		display: none;
+	}
+
+	/*mobile block Role*/
+	.full-role  {
+		margin-left: 5px;
+	}
+
+	.block-role {
+		width: 330px;
+	}
+
+	#role-input {
+		width: 320px;
+	}
+
+	/*mobile block Goals*/
+	.full-goals  {
+		margin-left: 5px;
+	}
+
+	.block-goals {
+		width: 330px;
+	}
+
+	#goals-input {
+		resize: none;
+		width: 300px;
+	}
+
+	.checkbox-button {
+		margin-top: 12px;
+		margin-left: 2px;
+		position: absolute;
+	}
+
+	.block-form p {
+		font-size: small;
+		margin-left: 25px;
+		max-width: 280px;
+		position: relative;
+		text-align: left !important;
+	}
+
+	/*mobile style button*/
+	.button-cancel,
+	.button-submit {
+		height: 42px;
+		margin-left: 5px;
+		width: 330px;
+	}
+
+	.cancel,
+	.submit {
+		padding-bottom: 15px;
+	}
+}
+
+
+
+
+
+

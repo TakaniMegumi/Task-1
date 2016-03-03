@@ -1,0 +1,334 @@
+body {
+	background-color: #939393;
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	padding-top: 30px;
+	padding-left: 70px;
+}
+
+h2 {
+	color: #fff;
+	padding-top: 10px;
+	padding-left: 80px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 29px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 5px 0 #5a5b5c, /* box-shadow for :focus */ inset 0 0 0 50px #27292b; /* the color of background */
+	-webkit-text-fill-color: #6abd97; /* text color */
+}
+
+input[type=search]::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+}
+
+input [type="checkbox"] {
+	height: 13px;
+	width: 13px;
+}
+
+input,
+textarea {
+	border: 1px solid #5a5b5c;
+	background-color: #27292b;
+	border-radius: 5px;
+	color: #fff;
+	outline: none;
+}
+
+input,
+label,
+p,
+textarea {
+	color: #5a5b5c;
+	font-size: 14px;
+	font-family: "Lato", "Karla", Helvetica, Arial, sans-serif;
+}
+
+form textarea {
+	padding: 15px;
+}
+
+form input {
+	padding: 5px;
+}
+
+fieldset {
+	border: 0;
+}
+
+.block-form {
+	bottom: 0;
+	background-color: #27292b;
+	height: 100%;
+	left: 0;
+	margin: auto;
+	max-height: 775px;
+	max-width: 636px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+
+.block-form p {
+	text-align: center !important;
+	width: 100%;
+}
+
+.line {
+	border: 1px solid #5a5b5c;
+	width: 465px;
+	margin-left: 80px;
+}
+
+/*indent blocks*/
+.block-top,
+.block-middle,
+.block-bottom {
+	padding-bottom: 30px;
+}
+
+/*inline-block*/
+.full-first-name,
+.full-last-name,
+.full-email,
+.full-phone,
+.full-school-organization,
+.full-role {
+	display: inline-block;
+}
+
+/*full block First Name*/
+.full-first-name {
+	padding-right: 8px;
+}
+
+.block-first-name {
+	height: 42px;
+	margin-top: 5px;
+	width: 225px;
+}
+
+#first-name-input {
+	border: 1px solid #5a5b5c;
+	border-radius: 5px;
+	height: 31px;
+	width: 214px;
+}
+
+#first-name-input:focus {
+	border: 1px solid #fff;
+}
+
+/*full block Last Name*/
+.block-last-name {
+	height: 42px;
+	margin-top: 5px;
+	width: 225px;
+}
+
+#last-name-input {
+	border: 1px solid #5a5b5c;
+	border-radius: 5px;
+	height: 31px;
+	width: 214px;
+}
+
+#last-name-input:focus {
+	border: 1px solid #fff;
+}
+
+/*full block Email*/
+.full-email {
+	padding-right: 8px;
+}
+
+.block-email {
+	height: 42px;
+	margin-top: 5px;
+	width: 225px;
+}
+
+#email-input {
+	border: 1px solid #5a5b5c;
+	border-radius: 5px;
+	height: 31px;
+	width: 214px;
+}
+
+#email-input:focus {
+	border: 1px solid #fff;
+}
+
+/*full block Phone Number*/
+#phone {
+	margin-top: 5px;
+}
+
+#phone div {
+	display: inline-block;
+}
+
+.block-phone-code,
+.block-phone-country {
+	height: 42px;
+	width: 63px;
+}
+
+.block-phone-number {
+	height: 42px;
+	width: 90px;
+}
+
+#phone-code-input,
+#phone-country-input {
+	border: 1px solid #5a5b5c;
+	border-radius: 5px;
+	height: 31px;
+	width: 52px;
+}
+
+#phone-number-input {
+	border: 1px solid #5a5b5c;
+	border-radius: 5px;
+	height: 31px;
+	width: 80px;
+}
+
+#phone-code-input:focus,
+#phone-country-input:focus,
+#phone-number-input:focus {
+	border: 1px solid #fff;
+}
+
+/*full block School Organization*/
+.full-school-organization {
+	padding-right: 8px;
+}
+
+.block-school-organization {
+	height: 42px;
+	margin-top: 5px;
+	width: 225px;
+}
+
+#school-organization-input {
+	border: 1px solid #5a5b5c;
+	border-radius: 5px;
+	height: 42px;
+	width: 225px;
+	-moz-box-sizing: border-box;
+}
+
+.uni {
+	cursor: pointer;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-left: 185px;
+	max-width: 40px;
+	position: absolute;
+}
+
+#school-organization-input:focus {
+	border: 1px solid #fff;
+}
+
+/*full block Role*/
+.block-role {
+	height: 42px;
+	margin-top: 5px;
+	width: 225px;
+}
+
+#role-input {
+	border: 1px solid #5a5b5c;
+	border-radius: 5px;
+	height: 31px;
+	width: 214px;
+}
+
+#role-input:focus {
+	border: 1px solid #fff;
+}
+
+/*full block Goals*/
+.block-goals {
+	height: 156px;
+	margin-top: 5px;
+	width: 465px;
+}
+
+#goals-input {
+	border: 1px solid #5a5b5c;
+	border-radius: 5px;
+	font-size: 14px;
+	height: 124px;
+	width: 434px;
+}
+
+#goals-input:focus {
+	border: 1px solid #fff;
+}
+
+.checkbox {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.checkbox div {
+	display: inline-block;
+}
+
+.button div {
+	display: inline-block;
+}
+
+.button-cancel,
+.button-submit {
+	height: 39px;
+	width: 127px;
+}
+
+.button-cancel {
+	color: #5a5b5c;
+}
+
+.button-cancel:hover {
+	background-color: #3F4246;
+}
+
+.button-submit {
+	background-color: #5d9f81;
+	color: #ffffff;
+	margin-right: 10px;
+}
+
+.button-submit:hover {
+	background-color: #6abd97;
+}
+/*classes for validation*/
+.error {
+	border-color: red !important;
+	color: red;
+}
+
+.error label {
+	border-color: red !important;
+	color: red;
+}
+
+.valid {
+	color: #6abd97 !important;
+	border-color: #6abd97 !important;
+}
+
+
+
+
